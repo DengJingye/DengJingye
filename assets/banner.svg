@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+  <title id="title">DengJingye — Bioinformatics × Machine Learning</title>
+  <desc id="desc">A dark blue and purple banner with a DNA-inspired double helix and a connected neural network. Learning in public.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.56" stop-color="#14112c"/>
+      <stop offset="1" stop-color="#101e38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="helix" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.27"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#a5b4fc" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="corners"><rect width="1100" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#corners)">
+    <rect width="1100" height="300" fill="url(#background)"/>
+    <rect width="1100" height="300" fill="url(#grid)"/>
+    <ellipse cx="870" cy="140" rx="320" ry="240" fill="url(#halo)"/>
+    <path d="M 0 299 H 1100" stroke="url(#accent)" stroke-width="3" opacity="0.65"/>
+
+    <rect x="52" y="43" width="30" height="3" rx="1.5" fill="#a78bfa"/>
+    <rect x="88" y="43" width="16" height="3" rx="1.5" fill="#67e8f9" opacity="0.75"/>
+    <text x="52" y="87" fill="#a7b8da" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing="2.3">BIOINFORMATICS × MACHINE LEARNING</text>
+    <text x="48" y="166" fill="#f5f3ff" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">DengJingye</text>
+    <text x="52" y="213" fill="#c4b5fd" font-family="Arial, Helvetica, sans-serif" font-size="23" letter-spacing="0.5">Learning in public.</text>
+    <text x="52" y="263" fill="#8291b2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">CODE  /  EXPERIMENT  /  UNDERSTAND</text>
+
+    <g fill="none" stroke="#8b9dd4" stroke-width="1.5" opacity="0.3">
+      <path d="M 770 77 L 864 65 L 959 94 L 1034 65 M 770 77 L 864 150 L 959 94 L 1034 150 M 770 150 L 864 65 L 959 216 L 1034 150 M 770 150 L 864 150 L 959 94 M 770 223 L 864 150 L 959 216 L 1034 237 M 770 223 L 864 237 L 959 216 M 864 65 L 959 216 M 864 237 L 959 94 L 1034 65 M 864 150 L 959 216 L 1034 65"/>
+    </g>
+    <g fill="#171b36" stroke="#8b8ad9" stroke-width="1.5">
+      <circle cx="864" cy="65" r="6"/>
+      <circle cx="864" cy="150" r="7" stroke="#c4b5fd"/>
+      <circle cx="864" cy="237" r="6"/>
+      <circle cx="959" cy="94" r="7" stroke="#67e8f9"/>
+      <circle cx="959" cy="216" r="7"/>
+      <circle cx="1034" cy="65" r="5"/>
+      <circle cx="1034" cy="150" r="6" stroke="#67e8f9"/>
+      <circle cx="1034" cy="237" r="5"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M 704 43 C 784 78 704 115 704 150 C 704 185 784 222 704 257" stroke="url(#helix)" stroke-width="3"/>
+      <path d="M 770 43 C 690 78 770 115 770 150 C 770 185 690 222 770 257" stroke="url(#helix)" stroke-width="3" opacity="0.72"/>
+      <g stroke="#9fa5ed" stroke-width="1.5" opacity="0.6">
+        <path d="M 720 53 L 754 53 M 733 70 L 741 70 M 728 89 L 746 89 M 716 108 L 758 108 M 707 128 L 767 128 M 704 150 L 770 150 M 707 172 L 767 172 M 716 192 L 758 192 M 728 211 L 746 211 M 733 230 L 741 230 M 720 247 L 754 247"/>
+      </g>
+    </g>
+    <g fill="#a5b4fc">
+      <circle cx="770" cy="77" r="4"/>
+      <circle cx="770" cy="150" r="4" fill="#67e8f9"/>
+      <circle cx="770" cy="223" r="4"/>
+    </g>
+    <rect x="0.5" y="0.5" width="1099" height="299" rx="23.5" fill="none" stroke="#8b8ad9" stroke-opacity="0.18"/>
+  </g>
+</svg>
